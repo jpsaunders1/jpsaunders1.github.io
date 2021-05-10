@@ -1,0 +1,148 @@
+/* general setup */
+html {
+    font-size: 16px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    background-color: white;
+    color:#222;
+  }
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 0 20px 20px 20px;
+}
+
+/* extra whitespace at the bottom of articles */
+article {
+    margin-bottom: 40px;
+    padding:0;
+}
+
+/* headings   */
+h1, h2, h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 40px 0 0 0;
+}
+
+.date {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    padding: 2px 0;
+    text-align:right;
+}
+
+/* body text */
+p, li {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+/* setting size of superscript so references don't affect line height of body text */
+sup {
+  line-height:0;
+  font-size:0.6em;
+}
+
+pre{
+  font-size:20px;
+  line-height: 1.5;
+  font-family: 'Cardo', serif;
+  text-transform: lowercase;
+}
+
+/* links */
+a {
+  padding-bottom: 2px;
+  color:#222;
+  text-decoration:none;
+}
+
+/* links by default are thin-highlighted green, darker when user hovers */
+a:any-link {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(171, 255, 169) 40% 60%, transparent 60% 100%);
+  }
+
+a:hover {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(0, 255, 0) 40% 60%, transparent 60% 100%); 
+}
+
+/* links to music are thin-highlighted blue, darker when user hovers */
+a.music:any-link {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(185, 255, 255) 40% 60%, transparent 60% 100%); 
+}
+
+a.music:hover {
+  background: linear-gradient(0deg, transparent 0 40%, cyan 40% 60%, transparent 60% 100%); 
+}
+
+/* links to contact are thin-highlighted pink, darker when user hovers */
+a.contact:any-link { 
+  background: linear-gradient(0deg, transparent 0 40%, rgb(255, 210, 244) 40% 60%, transparent 60% 100%); 
+}
+
+a.contact:hover {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(255, 108, 218) 40% 60%, transparent 60% 100%); 
+}
+
+a.header {
+  text-transform:lowercase;
+  background: none;
+}
+
+/* REFERENCES AND FOOTNOTES */
+/* references are grey */
+a.ref{
+  color:#555;
+}
+
+.footnotes p {
+  color:#222;
+  font-size:16px;
+}
+
+/* footer text formatting */
+footer p{
+  padding: 0;
+  text-transform:lowercase;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* navigation formatting */
+#nav {display:flex; flex-flow:row wrap;}
+
+.alignleft {
+width:40%;
+text-align:left;
+}
+
+.aligncenter {
+width:20%;
+text-align:center;
+}
+.alignright {
+width:40%;
+text-align:right;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
