@@ -59,7 +59,8 @@ sup {
 }
 
 pre{
-  font-size:1.3em;
+  white-space: prewrap;
+  font-size: 1.3em;
   line-height: 1.5;
   font-family: 'Cardo', serif;
   text-transform: lowercase;
