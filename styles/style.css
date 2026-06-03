@@ -91,6 +91,16 @@ a.music:hover {
   background: linear-gradient(0deg, transparent 0 40%, cyan 40% 60%, transparent 60% 100%); 
 }
 
+/* links to projects are thin-highlighted yellow, darker when user hovers */
+a.projects:any-link {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(255, 255, 0) 40% 60%, transparent 60% 100%); 
+}
+
+a.projects:hover {
+  background: linear-gradient(0deg, transparent 0 40%, rgb(255, 237, 41) 40% 60%, transparent 60% 100%); 
+}
+
+
 /* links to contact are thin-highlighted pink, darker when user hovers */
 a.contact:any-link { 
   background: linear-gradient(0deg, transparent 0 40%, rgb(255, 210, 244) 40% 60%, transparent 60% 100%); 
